@@ -3,7 +3,7 @@ $host = "localhost";
 $user = "root";
 $pass = "";
 $db   = "wad_helmi";
-$port = 4308; // Sesuaikan dengan port MySQL kamu
+$port = 4308; 
 
 $conn = new mysqli($host, $user, $pass, $db, $port);
 
